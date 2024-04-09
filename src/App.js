@@ -1,16 +1,16 @@
 import React from 'react';
-import {Header} from './layout/header';
-import {Footer} from './layout/footer';
-import {Main} from './layout/main';
+import {Header} from './components/header';
+import {Footer} from './components/footer';
+import {Shop} from './components/Shop';
 
 function App() {
   return (
     <React.Fragment>
-      <Header />
-      <Main />
-      <Footer />
+      <Header/>
+      <Shop/>
+      <Footer/>
     </React.Fragment>
-    );
+  );
 }
 
 export default App;
